@@ -22,7 +22,7 @@ const MainBody = React.forwardRef(
           </h1>
           <Typist>
             <div className="lead typist">
-              {message}
+              <p className="lead text-center" dangerouslySetInnerHTML={{__html: message}}/>
             </div>
           </Typist>
           <div className="p-5">

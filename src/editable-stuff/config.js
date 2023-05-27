@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Harry",
   middleName: "",
   lastName: "Jiang",
-  message: " Passionate about changing the world with technology. ",
+  message: " Passionate about changing the world with technology. <br> Chicago, Illinois, United States",
   icons: [
     {
       image: "fa-github",
